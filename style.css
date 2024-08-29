@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    
+}
+
+h1 {
+
+    background-color: #4CAF50; /* Green color matching the bottom sections */
+    text-align: center;
+
+}
+
+h2 {
+    background-color: #45A049; /* Slightly darker green */
+    text-align: center;
+}
+
+.pages {
+    background-color: #333333; /* Dark gray for navigation background */
+    padding: 10px 0;
+}
+
+a:link {
+    color: #fff; /* White for text */
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+a:visited{
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#a {
+    background-color: #555555; /* Matching dark gray for menu items */
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+li {
+    background-color: #fff; /* White background for menu items */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+}
+
+li del {
+    color: #ff0000; /* Red for original prices */
+}
+
+li ins {
+    color: #4CAF50; /* Green for discounted prices */
+    text-decoration: none;
+}
